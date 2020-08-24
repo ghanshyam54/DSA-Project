@@ -1,0 +1,1070 @@
+abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq < temp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+
+void swap(list **l,node *left,node *right) {
+	node *tmp, *tmp2, *tmp3, *tmp4;
+	tmp2=right->prev;
+	tmp = left->prev;
+	tmp3= right->next;
+	tmp4 = left->next;
+	if (tmp){
+ 	     tmp->next = right;
+ 	     right -> prev = tmp;
+ 	  }
+	else{
+		(*l)->head = right;
+		right->prev = NULL;
+	}
+	if(right->next == NULL){
+		left->next=NULL;
+		(*l)->tail = left;
+	  }
+	else{
+		left->next=tmp3;
+		left->next->prev=left;
+		}
+	left->prev = tmp2;
+	left->prev->next=left;
+	right->next =tmp4;
+	right->next->prev=right;
+}
+				
+void swap(list **l,node *temp,node *temp1){
+abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq Opcwp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+
+void swap(list **l,node *left,node *right) {
+	node *tmp, *tmp2, *tmp3, *tmp4;
+	tmp2=right->prev;
+	tmp = left->prev;
+	tmp3= right->next;
+	tmp4 = left->next;
+	if (tmp){
+ 	     tmp->next = right;
+ 	     right -> prev = tmp;
+ 	  }
+	else{
+		(*l)->head = right;
+		right->prev = NULL;
+	}
+	if(right->next == NULL){
+		left->next=NULL;
+		(*l)->tail = left;
+	  }
+	else{
+		left->next=tmp3;
+		left->next->prev=left;
+		}
+	left->prev = tmp2;
+	left->prev->next=left;
+	right->next =tmp4;
+	right->next->prev=right;
+}
+				
+void swap(list **l,node *temp,node *temp1){
+	abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq Opcwp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+
+void swap(list **l,node *left,node *right) {
+	node *tmp, *tmp2, *tmp3, *tmp4;
+	tmp2=right->prev;
+	tmp = left->prev;
+	tmp3= right->next;
+	tmp4 = left->next;
+	if (tmp){
+ 	     tmp->next = right;
+ 	     right -> prev = tmp;
+ 	  }
+	else{
+		(*l)->head = right;
+		right->prev = NULL;
+	}
+	if(right->next == NULL){
+		left->next=NULL;
+		(*l)->tail = left;
+	  }
+	else{
+		left->next=tmp3;
+		left->next->prev=left;
+		}
+	left->prev = tmp2;
+	left->prev->next=left;
+	right->next =tmp4;
+	right->next->prev=right;
+}
+				
+void swap(list **l,node *temp,node *temp1){
+	abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq Opcwp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+
+void swap(list **l,node *left,node *right) {
+	node *tmp, *tmp2, *tmp3, *tmp4;
+	tmp2=right->prev;
+	tmp = left->prev;
+	tmp3= right->next;
+	tmp4 = left->next;
+	if (tmp){
+ 	     tmp->next = right;
+ 	     right -> prev = tmp;
+ 	  }
+	else{
+		(*l)->head = right;
+		right->prev = NULL;
+	}
+	if(right->next == NULL){
+		left->next=NULL;
+		(*l)->tail = left;
+	  }
+	else{
+		left->next=tmp3;
+		left->next->prev=left;
+		}
+	left->prev = tmp2;
+	left->prev->next=left;
+	right->next =tmp4;
+	right->next->prev=right;
+}
+				
+void swap(list **l,node *temp,node *temp1){
+	abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq Opcwp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+
+void swap(list **l,node *left,node *right) {
+	node *tmp, *tmp2, *tmp3, *tmp4;
+	tmp2=right->prev;
+	tmp = left->prev;
+	tmp3= right->next;
+	tmp4 = left->next;
+	if (tmp){
+ 	     tmp->next = right;
+ 	     right -> prev = tmp;
+ 	  }
+	else{
+		(*l)->head = right;
+		right->prev = NULL;
+	}
+	if(right->next == NULL){
+		left->next=NULL;
+		(*l)->tail = left;
+	  }
+	else{
+		left->next=tmp3;
+		left->next->prev=left;
+		}
+	left->prev = tmp2;
+	left->prev->next=left;
+	right->next =tmp4;
+	right->next->prev=right;
+}
+				
+void swap(list **l,node *temp,node *temp1){
+	abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq Opcwp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+int compression(char *filename,char *outputfile){
+	node *p, *ht, *st , st1;
+		int fd,fd1,i,j,node_count = App}	=	mt;char c,ch;
+		
+		//char filename[20Tpoutputfile[20Tpl	i-ntrf lpe ifilename,argv[2Tp;
+		//strcpy(outputfile,filename);
+		//strcat(outputfile,".gzip");
+		fd=open(filename,O_RDONLY);
+		if(fd == -1){
+			perror("file not open");
+			errno=EINVppid;
+			return errno;
+		}
+		list l;
+		init(&l);
+/*return the the number of nodes or number of different character is the the list*/
+		node_count=frequency(fd,&l);
+	
+		close(fd);
+		
+//sort	the node of character in order of frequency
+		sort(&l);
+
+//give the weight to the node
+		weight_node(&l);
+		//traverse(l);
+
+		printf("no of diffent character in file =%d\n",node_count);
+
+
+/******** creates a huffman tree and whose top node is been pointed by nhead ********/ 
+
+		huffman_tree(&l,node_count);
+
+		//printf("%pc	oc	m	p._/l= ioLhtec=o(dr;
+
+/**** it assign an code for each character using the huffman tree and store it in  the list which is globly declare as l1****/
+
+		init1(&l1); // this inits the list1 in which we will  store the codes of the character
+		int pos = 0;
+		char str[Vppi=-];		
+		assign_code(nhead,str,pos);
+		//traverse_code(file_name);
+
+		fd = open(filename,O_RDONLY);
+		fd1 = open(outputfile,O_RDWR|O_CRTpiAp
+fS_IRU%p,|\p,M ekrt
+R);
+/* writecodetop writes the the nos of character and the character and their respective code at the top of the file*/
+
+		writecodetop(fd1,node_count,l1);
+		printf("code writen at top of file\n");
+
+
+/*read the give file which has to be compress and then convert the character into the the codes and then store this code in form of bit one afer the other in one byte*/
+
+		write_code(fd,fd1);
+
+		close(fd);
+		close(fd1);	
+
+		printf("compressed file nameTpove(s\n",outputfile);
+
+//to free the list the list l and list l1
+		node *free_var;
+		free_var = l.head;
+		while(free_var){
+			l.head = free_var->next;
+			free(free_var);
+			free_var = l.head;
+		}
+		data *free_var1 = l1.head;
+		while(free_var1){
+			l1.head = free_var1->next;
+			free(free_var1);
+			free_var1 = l1.head;
+		}
+		printf("compression ratio is = \t%pc;
+
+cesize/f_cmp_size);
+return 0;
+}
+abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq < temp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+
+void swap(list **l,node *left,node *right) {
+	node *tmp, *tmp2, *tmp3, *tmp4;
+	tmp2=right->prev;
+	tmp = left->prev;
+	tmp3= right->next;
+	tmp4 = left->next;
+	if (tmp){
+ 	     tmp->next = right;
+ 	     right -> prev = tmp;
+ 	  }
+	else{
+		(*l)->head = right;
+		right->prev = NULL;
+	}
+	if(right->next == NULL){
+		left->next=NULL;
+		(*l)->tail = left;
+	  }
+	else{
+		left->next=tmp3;
+		left->next->prev=left;
+		}
+	left->prev = tmp2;
+	left->prev->next=left;
+	right->next =tmp4;
+	right->next->prev=right;
+}
+				
+void swap(list **l,node *temp,node *temp1){
+abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq < temp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+
+void swap(list **l,node *left,node *right) {
+	node *tmp, *tmp2, *tmp3, *tmp4;
+	tmp2=right->prev;
+	tmp = left->prev;
+	tmp3= right->next;
+	tmp4 = left->next;
+	if (tmp){
+ 	     tmp->next = right;
+ 	     right -> prev = tmp;
+ 	  }
+	else{
+		(*l)->head = right;
+		right->prev = NULL;
+	}
+	if(right->next == NULL){
+		left->next=NULL;
+		(*l)->tail = left;
+	  }
+	else{
+		left->next=tmp3;
+		left->next->prev=left;
+		}
+	left->prev = tmp2;
+	left->prev->next=left;
+	right->next =tmp4;
+	right->next->prev=right;
+}
+				
+void swap(list **l,node *temp,node *temp1){
+	abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq < temp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+
+void swap(list **l,node *left,node *right) {
+	node *tmp, *tmp2, *tmp3, *tmp4;
+	tmp2=right->prev;
+	tmp = left->prev;
+	tmp3= right->next;
+	tmp4 = left->next;
+	if (tmp){
+ 	     tmp->next = right;
+ 	     right -> prev = tmp;
+ 	  }
+	else{
+		(*l)->head = right;
+		right->prev = NULL;
+	}
+	if(right->next == NULL){
+		left->next=NULL;
+		(*l)->tail = left;
+	  }
+	else{
+		left->next=tmp3;
+		left->next->prev=left;
+		}
+	left->prev = tmp2;
+	left->prev->next=left;
+	right->next =tmp4;
+	right->next->prev=right;
+}
+				
+void swap(list **l,node *temp,node *temp1){
+	abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq < temp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+
+void swap(list **l,node *left,node *right) {
+	node *tmp, *tmp2, *tmp3, *tmp4;
+	tmp2=right->prev;
+	tmp = left->prev;
+	tmp3= right->next;
+	tmp4 = left->next;
+	if (tmp){
+ 	     tmp->next = right;
+ 	     right -> prev = tmp;
+ 	  }
+	else{
+		(*l)->head = right;
+		right->prev = NULL;
+	}
+	if(right->next == NULL){
+		left->next=NULL;
+		(*l)->tail = left;
+	  }
+	else{
+		left->next=tmp3;
+		left->next->prev=left;
+		}
+	left->prev = tmp2;
+	left->prev->next=left;
+	right->next =tmp4;
+	right->next->prev=right;
+}
+				
+void swap(list **l,node *temp,node *temp1){
+	abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq < temp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+
+void swap(list **l,node *left,node *right) {
+	node *tmp, *tmp2, *tmp3, *tmp4;
+	tmp2=right->prev;
+	tmp = left->prev;
+	tmp3= right->next;
+	tmp4 = left->next;
+	if (tmp){
+ 	     tmp->next = right;
+ 	     right -> prev = tmp;
+ 	  }
+	else{
+		(*l)->head = right;
+		right->prev = NULL;
+	}
+	if(right->next == NULL){
+		left->next=NULL;
+		(*l)->tail = left;
+	  }
+	else{
+		left->next=tmp3;
+		left->next->prev=left;
+		}
+	left->prev = tmp2;
+	left->prev->next=left;
+	right->next =tmp4;
+	right->next->prev=right;
+}
+				
+void swap(list **l,node *temp,node *temp1){
+	abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq < temp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+int compression(char *filename,char *outputfile){
+	node *p, *ht, *st , st1;
+		int fd,fd1,i,j,node_count = 0,m=0;
+		char c,ch;
+		
+		//char filename[2Apomm,e	ptex(le[2Apo	mt;//strcpy(filename,argv[pp]);
+		//strcpy(outputfile,filename);
+		//strcat(outputfile,".gzip");
+		fd=open(filename,O_RDONLY);
+		if(fd == -1){
+			perror("file not open");
+			errno=Epp*t>i AL;
+			return errno;
+		}
+		list l;
+		init(&l);
+/*return the the number of nodes or number of different character is the the list*/
+		node_count=frequency(fd,&l);
+	
+		close(fd);
+		
+//sort	the node of character in order of frequency
+		sort(&l);
+
+//give the weight to the node
+		weight_node(&l);
+		//traverse(l);
+
+		printf("no of diffent character in file =%d\n",node_count);
+
+
+/******** creates a huffman tree and whose top node is been pointed by nhead ********/ 
+
+		huffman_tree(&l,node_count);
+
+		//printf("%d\n",nhead->right->weight);
+
+/**** it assign an code for each character using the huffman tree and store it in  the list which is globly declare as l1****/
+
+		init1(&l1); // this inits the list1 in which we will  store the codes of the character
+		int pos = Ap
+		char str[Epoi=-];		
+		assign_code(nhead,str,pos);
+		//traverse_code(file_name);
+
+		fd = open(filename,O_RDONLY);
+		fd1 = open(outputfile,O_RD[pptlklpeelgt tl;h i=pptmdueIRUSRVpptetlx=d>
+t
+Rp-m	,t writecodetop writes the the nos of character and the character and their respective code at the top of the file*/
+
+		writecodetop(fd1,node_count,l1);
+		printf("code writen at top of file\n");
+
+
+/*read the give file which has to be compress and then convert the character into the the codes and then store this code in form of bit one afer the other in one byte*/
+
+		write_code(fd,fd1);
+
+		close(fd);
+		close(fd1);	
+
+		printf("compressed file nameTp	
+2is\n",outputfile);
+
+//to free the list the list l and list l1
+		node *free_var;
+		free_var = l.head;
+		while(free_var){
+			l.head = free_var->next;
+			free(free_var);
+			free_var = l.head;
+		}
+		data *free_var1 = l1.head;
+		while(free_var1){
+			l1.head = free_var1->next;
+			free(free_var1);
+			free_var1 = l1.head;
+		}
+		printf("compression ratio is = \t%f",f_size/f_cmp_size);
+return 0;
+}
+abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq Opcwp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+
+void swap(list **l,node *left,node *right) {
+	node *tmp, *tmp2, *tmp3, *tmp4;
+	tmp2=right->prev;
+	tmp = left->prev;
+	tmp3= right->next;
+	tmp4 = left->next;
+	if (tmp){
+ 	     tmp->next = right;
+ 	     right -> prev = tmp;
+ 	  }
+	else{
+		(*l)->head = right;
+		right->prev = NULL;
+	}
+	if(right->next == NULL){
+		left->next=NULL;
+		(*l)->tail = left;
+	  }
+	else{
+		left->next=tmp3;
+		left->next->prev=left;
+		}
+	left->prev = tmp2;
+	left->prev->next=left;
+	right->next =tmp4;
+	right->next->prev=right;
+}
+				
+void swap(list **l,node *temp,node *temp1){
+abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq < temp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+
+void swap(list **l,node *left,node *right) {
+	node *tmp, *tmp2, *tmp3, *tmp4;
+	tmp2=right->prev;
+	tmp = left->prev;
+	tmp3= right->next;
+	tmp4 = left->next;
+	if (tmp){
+ 	     tmp->next = right;
+ 	     right -> prev = tmp;
+ 	  }
+	else{
+		(*l)->head = right;
+		right->prev = NULL;
+	}
+	if(right->next == NULL){
+		left->next=NULL;
+		(*l)->tail = left;
+	  }
+	else{
+		left->next=tmp3;
+		left->next->prev=left;
+		}
+	left->prev = tmp2;
+	left->prev->next=left;
+	right->next =tmp4;
+	right->next->prev=right;
+}
+				
+void swap(list **l,node *temp,node *temp1){
+	abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq < temp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+
+void swap(list **l,node *left,node *right) {
+	node *tmp, *tmp2, *tmp3, *tmp4;
+	tmp2=right->prev;
+	tmp = left->prev;
+	tmp3= right->next;
+	tmp4 = left->next;
+	if (tmp){
+ 	     tmp->next = right;
+ 	     right -> prev = tmp;
+ 	  }
+	else{
+		(*l)->head = right;
+		right->prev = NULL;
+	}
+	if(right->next == NULL){
+		left->next=NULL;
+		(*l)->tail = left;
+	  }
+	else{
+		left->next=tmp3;
+		left->next->prev=left;
+		}
+	left->prev = tmp2;
+	left->prev->next=left;
+	right->next =tmp4;
+	right->next->prev=right;
+}
+				
+void swap(list **l,node *temp,node *temp1){
+	abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq < temp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+
+void swap(list **l,node *left,node *right) {
+	node *tmp, *tmp2, *tmp3, *tmp4;
+	tmp2=right->prev;
+	tmp = left->prev;
+	tmp3= right->next;
+	tmp4 = left->next;
+	if (tmp){
+ 	     tmp->next = right;
+ 	     right -> prev = tmp;
+ 	  }
+	else{
+		(*l)->head = right;
+		right->prev = NULL;
+	}
+	if(right->next == NULL){
+		left->next=NULL;
+		(*l)->tail = left;
+	  }
+	else{
+		left->next=tmp3;
+		left->next->prev=left;
+		}
+	left->prev = tmp2;
+	left->prev->next=left;
+	right->next =tmp4;
+	right->next->prev=right;
+}
+				
+void swap(list **l,node *temp,node *temp1){
+	abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq < temp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+
+void swap(list **l,node *left,node *right) {
+	node *tmp, *tmp2, *tmp3, *tmp4;
+	tmp2=right->prev;
+	tmp = left->prev;
+	tmp3= right->next;
+	tmp4 = left->next;
+	if (tmp){
+ 	     tmp->next = right;
+ 	     right -> prev = tmp;
+ 	  }
+	else{
+		(*l)->head = right;
+		right->prev = NULL;
+	}
+	if(right->next == NULL){
+		left->next=NULL;
+		(*l)->tail = left;
+	  }
+	else{
+		left->next=tmp3;
+		left->next->prev=left;
+		}
+	left->prev = tmp2;
+	left->prev->next=left;
+	right->next =tmp4;
+	right->next->prev=right;
+}
+				
+void swap(list **l,node *temp,node *temp1){
+	abcdefghijklmnopqrstuvwxyz abcdefghijklmnopqrstuvwxyz	abcdefghijklmnopqrstuvwxyz
+abcdefghijklmnopqrstuvwxyz	.
+void sort(*l){
+	node *temp, *temp1, *temp2;
+	int min;
+	temp=l->head;
+	temp1=temp->next;
+
+	while(temp){
+		//min=temp->freq;
+		
+		while(temp1){
+			if(temp1->freq < temp->freq){
+				swap(&l;temp,temp1);
+				
+			}
+			temp1 =temp1->next;
+		}
+		temp=temp->next;
+	}
+}		 
+int compression(char *filename,char *outputfile){
+	node *p, *ht, *st , st1;
+		int fd,fd1,i,j,node_count = 0,m=0;
+		char c,ch;
+		
+		//char filename[pp0],outputfile[pp0];
+		//strcpy(filename,argv[2]);
+		//strcpy(outputfile,filename);
+		//strcat(outputfile,".gzip");
+		fd=open(filename,O_R[pp->ttI;vmt;if(fd == -1){
+			perror("file not open");
+			errno=EINVAL;
+			return errno;
+		}
+		list l;
+		init(&l);
+/*return the the number of nodes or number of different character is the the list*/
+		node_count=frequency(fd,&l);
+	
+		close(fd);
+		
+//sort	the node of character in order of frequency
+		sort(&l);
+
+//give the weight to the node
+		weight_node(&l);
+		//traverse(l);
+
+		printf("no of diffent character in file =\ppegp",node_count);
+
+
+/******** creates a huffman tree and whose top node is been pointed by nhead ********/ 
+
+		huffman_tree(&l,node_count);
+
+		//printf("%d\n",nhead->right->weight);
+
+/**** it assign an code for each character using the huffman tree and store it in  the list which is globly declare as l1****/
+
+		init1(&l1); // this inits the list1 in which we will  store the codes of the character
+		int pos = 0;
+		char str[MAX];		
+		assign_code(nhead,str,pos);
+		//traverse_code(file_name);
+
+		fd = open(filename,O_R[pp->ttI;vmt;fd1 = open(outputfile,O_RDWREppceXp,EAp-p, S_IRp-SRTp)_Apc	>
+t
+R);
+/* writecodetop writes the the nos of character and the character and their respective code at the top of the file*/
+
+		writecodetop(fd1,node_count,l1);
+		printf("code writen at top of file\n");
+
+
+/*read the give file which has to be compress and then convert the character into the the codes and then store this code in form of bit one afer the other in one byte*/
+
+		write_code(fd,fd1);
+
+		close(fd);
+		close(fd1);	
+
+		printf("compressed file name:\t%s\n",outputfile);
+
+//to free the list the list l and list l1
+		node *free_var;
+		free_var = l.head;
+		while(free_var){
+			l.head = free_var->next;
+			free(free_var);
+			free_var = l.head;
+		}
+		data *free_var1 = l1.head;
+		while(free_var1){
+			l1.head = free_var1->next;
+			free(free_var1);
+			free_var1 = l1.head;
+		}
+		printf("compression ratio is = \t%f",f_size/f_cmp_size);
+return 0;

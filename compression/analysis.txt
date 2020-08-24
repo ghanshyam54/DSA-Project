@@ -1,0 +1,57 @@
+algorithm : huffman
+file_name : gp.txt
+file_size : 21 mb
+compression_time : 0m21.927sec
+compressed_size :13.7mbi
+uncompression_time: 3m44.081sec
+compress_ratio: 1.224061
+
+
+algorithm : lzw
+file_name : gp.txt
+file_size :21mb
+compression_time : 4m1s
+ucompressed_size :3.7 mb
+compression_time :6.839s
+compress_ratio :4.5719
+
+
+algorithm : huffman
+file_name : test2.txt
+file_size :21kb
+compression_time:0.040s
+compressed_size :16.6kb
+uncompression_time:0.0282s
+compress_ratio::1.560447
+
+
+algorithm : lzw
+file_name : test2.txt
+file_size :21kb
+compression_time : 0m0.189s
+compressed_size :7.4 kb
+uncompression_time: 0.008s
+compress_ratio:2.8722
+
+algorithm : huffman
+file_name : textfile.txt
+file_size :4.1mb
+compression_time : 4.20 s
+compressed_size :2.3 mb
+uncompression_time : 1m.359s
+compress_ratio: 1.756300
+
+algorithm : lzw
+file_name : textfile.txt
+file_size :4.1mb
+compression_time : 48.481s
+compressed_size :1.6 mb
+uncompression_time :1.551s
+compress_ratio: 2.594
+
+ANALYSIS
+1.In this the analysis of three file is done max compression is done by lzw due to it dictionary and less time is is require to un compress due to direct axcess to value using the array.
+2. In compression the linklist is use so some time is required to do precressing
+ huffman is little slower in some casses
+1. As it has to maketree then make code from it then store it ..
+2. And in un compression it is little faster as compare to compression
